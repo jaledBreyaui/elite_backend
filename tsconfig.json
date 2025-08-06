@@ -112,6 +112,7 @@
     "strict": true,
     "skipLibCheck": true,
     "outDir": "dist",
+    "rootDir": "./src",
     "types": ["node", "express", "multer", "mongoose"],
     "resolveJsonModule": true
   },
