@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin: "https://elite-frontend-gilt.vercel.app/",
+        origin: "*",
         credentials: true,
         methods: ["POST", "PUT", "GET", "OPTIONS", "HEAD", "DELETE"],
         allowedHeaders: ['Content-Type', 'Authorization']
