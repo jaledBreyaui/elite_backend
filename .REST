@@ -1,0 +1,37 @@
+# PUT http://localhost:3001/elite/modificar/250 HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "codigo": "255",
+#     "nombre":"Duracell AA",
+#     "descripcion":"",
+#     "precio":1508000,
+#     "fotoURL":""
+# }
+
+# GET http://localhost:3001/elite/porid/105 HTTP/1.1
+# Content-Type: application/json
+
+# GET http://localhost:3001/elite/porid/688a6b8ec0b4f8448eb885f2 HTTP/1.1
+# Content-Type: application/json
+
+# DELETE http://localhost:3001/elite/eliminar/252 HTTP/1.1
+# Content-Type: application/json
+
+
+# GET http://localhost:3001/elite/porid/250 HTTP/1.1
+# Content-Type: application/json
+
+# POST http://localhost:3001/elite/nuevoproducto HTTP/1.1
+# Content-Type: application/json 
+
+# {
+#     "codigo": "1245",
+#     "nombre":"Eveready AA",
+#     "descripcion":"",
+#     "precio":1523,
+#     "fotoURL":""
+# }
+
+# GET http://localhost:3001/elite/productos HTTP/1.1
+# Content-Type: application/json
