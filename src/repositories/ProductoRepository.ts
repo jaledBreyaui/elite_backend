@@ -4,10 +4,10 @@ import { ProductoModel, IProducto } from '../models/product'
 export class ProductoRepository {
     /** Lee todos los documentos de Mongo y los convierte en instancias de Producto */
     async findAll(): Promise<Producto[]> {
-        const docs = await ProductoModel.find().lean<IProducto>()
+        const docs = await ProductoModel.find().lean<IProducto[]>()
         return docs.map(d =>
             new Producto(
-                d._id.toString(),
+                (d._id as any).toString(),
                 d.codigo,
                 d.nombre,
                 d.precio,
